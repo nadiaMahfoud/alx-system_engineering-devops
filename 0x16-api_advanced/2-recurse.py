@@ -8,6 +8,7 @@ the function should return None.
 
 import requests
 
+
 def recurse(subreddit, hot_list=[], after="", count=0):
     """returning top ten post titles recursively"""
     url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
